@@ -13,7 +13,7 @@ export default class Player {
         this.y = this.gameHeight - this.height;
         
         this.vy = 0;
-        this.gravity = 0.5;
+        this.gravity = 1;
 
         this.frameX = 0;
         this.frameY = 0;
