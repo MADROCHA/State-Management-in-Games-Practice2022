@@ -4,33 +4,33 @@ export default class InputHandler {
         window.addEventListener('keydown', (e) => {           
             console.log(e.key)
             switch(e.key){
-                case "ArrowLeft":
+                case "a":
                     this.lastKey = "PRESS left";
                     break 
-                case "ArrowRight":
+                case "d":
                     this.lastKey = "PRESS right";
                     break 
                 case "s":
-                    this.lastKey = "PRESS s";
+                    this.lastKey = "PRESS down";
                     break 
                 case "w":
-                    this.lastKey = "PRESS w";
+                    this.lastKey = "PRESS up";
                     break 
             }
         });
         window.addEventListener('keyup', (e) => {          
             switch(e.key){
-                case "ArrowLeft":
+                case "a":
                     this.lastKey = "RELEASE left";
                     break 
-                case "ArrowRight":
+                case "d":
                     this.lastKey = "RELEASE right";
                     break
                 case "s":
-                    this.lastKey = "RELEASE s";
+                    this.lastKey = "RELEASE down";
                     break  
                 case "w":
-                    this.lastKey = "RELEASE w";
+                    this.lastKey = "RELEASE up";
                     break  
             }
         });
