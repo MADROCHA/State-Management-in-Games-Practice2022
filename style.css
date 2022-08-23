@@ -5,17 +5,25 @@
     font-family: 'Helvetica', cursive;
 }
 body {
+    /* 1.0 */
+    background: rgb(19, 19, 19);
+    /* 1.0 */
     overflow: Hidden;
 }
 canvas {
-    
+    background: rgb(19, 19, 19);
     top: 0;
     left: 0;
+    
 }
 img {
     display: none;
 }
 #loading {
+    /* 1.0 */
+    color: azure;
+    background: rgb(19, 19, 19);
+    /* 1.0 */
     position: absolute;
     top: 50%;
     width: 100%;
